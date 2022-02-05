@@ -21,11 +21,10 @@ a{
 }
 
 h1{
-  font-family: 'Domine', serif;
+  font-family: 'Domine', serif !important;
   font-size:48px;
   font-weight:700;
   margin:0;
-  
 
 }
 

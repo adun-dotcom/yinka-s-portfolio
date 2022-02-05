@@ -31,7 +31,7 @@ const titleVariant = {
   },
   visible: {
     opacity: 1,
-    transition: {},
+    transition: {duration:2},
   },
 };
 
@@ -133,7 +133,7 @@ export default function Home() {
                   happy to hear from you.
                 </p>
                 <Fade left>
-                <a href="mailto:olayinkaodetola5@gmail.com" target="_blank">
+                <a href="mailto:olayinkaodetola5@gmail.com" target="_blank" className="email">
                   olayinkaodetola5@gmail.com
                 </a>
                 </Fade>
@@ -171,7 +171,7 @@ export default function Home() {
               
             <div className="container">
               <p>
-                Designed by Olayinka Fadare &copy; 2020
+                Designed by <strong>Olayinka Fadare</strong> &copy; 2020
               </p>
             </div>
           </Footer2>

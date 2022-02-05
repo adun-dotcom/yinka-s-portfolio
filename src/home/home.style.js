@@ -59,12 +59,13 @@ export const Footer1 = styled.div`
   p {
     width: 70%;
   color: #ecedf2;
+  padding-bottom: 10px;
 
   @media screen and (max-width: 789px) {
     width:90%;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 500px) {
     width:100%;
   }
 
@@ -72,13 +73,15 @@ export const Footer1 = styled.div`
 
   a {
     color: #ecedf2;
+    font-weight: bold;
     text-decoration: none;
+    letter-spacing: 1.4px;
     border-bottom: 2px solid #ecedf2;
   }
 
+
   .logo-div{
       display:flex;
-      margin-top:30px;
 
       a{
           border-bottom:none;
@@ -89,6 +92,6 @@ export const Footer1 = styled.div`
 export const Footer2 = styled.div`
   background: #e5e5e5;
   padding:20px 0;
-  color: #000000;
-  font-size:16px;
+  color: rgba(0,0,0,0.7);
+  font-size:14px;
 `;
