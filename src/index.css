@@ -3,7 +3,7 @@
 
 body {
   margin: 0;
-  font-family:'Circular Std Medium', sans-serif; 
+  font-family:'Circular Std Medium', sans-serif !important; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -19,8 +19,6 @@ body {
 a{
   cursor: pointer;
 }
-
-
 
 h1{
   font-family: 'Domine', serif;
