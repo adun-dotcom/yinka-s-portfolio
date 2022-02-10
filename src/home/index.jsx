@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Logo, HomeWrapper, HomeContent, Footer1, Footer2 } from "./home.style";
 import Linkedin from "../images/linkedin.svg";
 import Twitter from "../images/twitter.svg";
-import CopyWrite from "../images/copywrite.svg";
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
 
@@ -31,7 +30,7 @@ const titleVariant = {
   },
   visible: {
     opacity: 1,
-    transition: {duration:2},
+    transition: {duration:0.5},
   },
 };
 
@@ -95,8 +94,8 @@ export default function Home() {
                   <h1>Hello 👋🏽, I’m Olayinka!</h1>
 
                   <motion.p variants={titleVariant}>
-                    I’m an Experience Designer with over 4 years of experience
-                    of solving problems with user centric designs.
+                    I’m an Experienced Designer with over 4 years of experience
+                    in solving problems with user centric designs.
                   </motion.p>
                   <motion.p variants={titleVariant}>
                     I currently live in Amsterdam, Netherlands and work as a
