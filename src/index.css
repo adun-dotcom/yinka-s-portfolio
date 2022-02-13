@@ -1,54 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Kaushan+Script&family=Noto+Serif:wght@400;700&display=swap');
-@import url(//db.onlinewebfonts.com/c/9475d6a0b79c164f9f605673714e75d9?family=Circular+Std+Medium);
-
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Kaushan+Script&family=Noto+Serif:wght@400;700&display=swap");
+@import url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+@import url(//db.onlinewebfonts.com/c/b2215378fb1b991865ced500401f5282?family=SunsetSerial-Bold);
 body {
   margin: 0;
-  font-family:'Circular Std Medium', sans-serif !important; 
+  font-family: "Circular Std Book", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
 
-.intro-div{
-  background-color:#ECEDF2;
+.intro-div {
+  background: #e8e4e6;
   height: 100vh;
-  display:flex;
-  justify-content:center;align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-a{
+a {
   cursor: pointer;
 }
 
-h1{
-  font-family: 'Domine', serif !important;
-  font-size:48px;
-  font-weight:700;
-  margin:0;
-
+h1 {
+  font-family: "SunsetSerial-Bold", sans-serif !important;
+  font-size: 48px;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
-  h1{
-    font-size:40px;
-
+  h1 {
+    font-size: 40px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  h1{
-    font-size:30px;
+  h1 {
+    font-size: 30px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  h1{
-    font-size:28px;
+  h1 {
+    font-size: 28px;
   }
 }
-.container{
+.container {
   max-width: 1200px;
-  width:90%; 
+  width: 90%;
   margin: 0 auto;
 }
 
+@font-face {font-family: "Circular Std Book"; src: url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot"); src: url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff") format("woff"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.svg#Circular Std Book") format("svg"); }
+
+@font-face {font-family: "SunsetSerial-Bold"; src: url("//db.onlinewebfonts.com/t/b2215378fb1b991865ced500401f5282.eot"); src: url("//db.onlinewebfonts.com/t/b2215378fb1b991865ced500401f5282.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b2215378fb1b991865ced500401f5282.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b2215378fb1b991865ced500401f5282.woff") format("woff"), url("//db.onlinewebfonts.com/t/b2215378fb1b991865ced500401f5282.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b2215378fb1b991865ced500401f5282.svg#SunsetSerial-Bold") format("svg"); }

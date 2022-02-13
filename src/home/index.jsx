@@ -170,7 +170,7 @@ export default function Home() {
               
             <div className="container">
               <p>
-                Designed by <strong>Olayinka Fadare</strong> &copy; 2020
+                Designed by Olayinka Fadare &copy; 2020
               </p>
             </div>
           </Footer2>
