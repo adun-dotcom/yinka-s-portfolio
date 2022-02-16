@@ -24,6 +24,7 @@ a {
 h1 {
   font-family: "SunsetSerial-Bold", sans-serif !important;
   font-size: 48px;
+  letter-spacing:-.1rem;
   margin: 0;
 }
 

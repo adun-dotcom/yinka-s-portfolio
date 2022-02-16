@@ -29,6 +29,7 @@ export const HomeContent = styled.div`
   h1{
     color:#001E1D ;
   }
+
   p,
   a {
     font-size: 20px;
@@ -78,7 +79,7 @@ export const Footer1 = styled.div`
     color: #abd1c6;
     font-weight: bold;
     text-decoration: none;
-    letter-spacing: 1.4px;
+    // letter-spacing: 1.4px;
     border-bottom: 2px solid #abd1c6;
   }
 
